@@ -77,4 +77,4 @@ Apes Together Strong (section 2)
 
 ## 📄 License
 
-This project is for academic purposes only.
+This project is for academic purposes only (Mahidol University).
