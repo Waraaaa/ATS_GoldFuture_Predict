@@ -72,19 +72,19 @@ ATS_GoldFuture_Predict-main/
 
 ## 🧪 Examples
 
-### XGBoost
+### XGBoost Model
 ![Screenshot 2025-05-02 202808](https://github.com/user-attachments/assets/11be6341-5f54-45b9-bb13-b93c3147c2ad)
 ![Screenshot 2025-05-02 202607](https://github.com/user-attachments/assets/925c8f98-dc2b-4ffd-90ca-c340856ee465)
 
 <br>
 
-### Random Forest
+### Random Forest Model
 ![Screenshot 2025-05-02 202937](https://github.com/user-attachments/assets/4c23a59b-bfba-4e4e-afe4-795e667a46ff)
 ![Screenshot 2025-05-02 202922](https://github.com/user-attachments/assets/f7038f6a-a44b-4b8f-94a0-a2540e5071e8)
 
 <br>
 
-### LSTM
+### LSTM Model
 ![Screenshot 2025-05-02 211301](https://github.com/user-attachments/assets/120e248f-d16e-467b-8d06-60faf84e043b)
 ![Screenshot 2025-05-02 211210](https://github.com/user-attachments/assets/7946b257-3b6f-4386-b0b8-6d8fbe6797a5)
 
