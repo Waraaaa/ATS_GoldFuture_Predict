@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, r2_score
 
 # Load & clean dataset
-df = pd.read_csv('future-gc00-daily-prices.csv')
+df = pd.read_csv('dataset/future-gc00-daily-prices.csv')
 df['Date'] = pd.to_datetime(df['Date'], format='%m/%d/%Y')
 for col in ['Open', 'High', 'Low', 'Close']:
     df[col] = df[col].str.replace(',', '').astype(float)
