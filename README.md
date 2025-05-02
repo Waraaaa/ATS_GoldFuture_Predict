@@ -28,9 +28,9 @@
 - **Data Collection & Pre-processing:** a
 - **Feature Engineering:** a
 - **Modeling**
-- - XGBoost: A
-- - Random Forest: a
-- - LSTM (Long Short-Term Memory): A
+  - XGBoost: A
+  - Random Forest: a
+  - LSTM (Long Short-Term Memory): A
 - **Evaluation Metrics:** Mean Absolute Error (MAE) and R² Score.
 
 <br>
