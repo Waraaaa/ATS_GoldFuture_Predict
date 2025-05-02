@@ -61,6 +61,7 @@ ATS_GoldFuture_Predict-main/
 │   └── future-gc00-daily-prices.csv
 ├── xgboost-ats.py          # XGBoost Model
 ├── randomforest-ats.py     # Random Forest Model
+├── lstm-ats.py             # LSTM Model
 └── README.md
 ```
 
