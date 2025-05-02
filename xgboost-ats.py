@@ -99,7 +99,7 @@ for date_str in future_dates:
 # Build future prediction DataFrame
 future_df = pd.DataFrame(future_preds).set_index('Date')
 
-# Add actual values for comparison
+# Add actual future prices for comparison
 actual_closing_prices = {
     "2024-04-14": 2436.10,
     "2024-04-21": 2369.30,
@@ -113,7 +113,7 @@ future_df['Actual'] = future_df.index.map(lambda d: actual_closing_prices.get(d.
 print("\nFuture Predictions vs Actual:")
 print(future_df[['Predicted', 'Actual']])
 
-# Combine with test_plot for extended plot
+# Combine with test_plot for full plot
 extended_plot = pd.concat([test_plot, future_df]).sort_index()
 
 # Plot
@@ -135,7 +135,7 @@ for date in actual_future.index:
     if pd.notna(actual_future[date]) and pd.notna(future_preds_plot[date]):
         plt.plot([date, date], [actual_future[date], future_preds_plot[date]], color='gray', linestyle=':', linewidth=1)
 
-# Forecast start line
+# Forecast line
 plt.axvline(df['Date'].iloc[-1], color='gray', linestyle=':', label='Forecast Start')
 
 # Formatting
