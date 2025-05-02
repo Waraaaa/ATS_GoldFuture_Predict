@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 # Load & clean dataset
-df = pd.read_csv('future-gc00-daily-prices.csv')
+df = pd.read_csv('dataset/future-gc00-daily-prices.csv')
 df['Date'] = pd.to_datetime(df['Date'], format='%m/%d/%Y')
 for col in ['Open', 'High', 'Low', 'Close']:
     df[col] = df[col].str.replace(',', '').astype(float)
