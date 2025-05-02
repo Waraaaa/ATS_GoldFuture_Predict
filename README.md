@@ -25,30 +25,33 @@
 
 ## ✨ Features
 
-- **Data Collection & Pre-processing:** a
-- **Feature Engineering:** a
+- **Data Collection & Pre-processing:** Data was collected from historical gold futures prices, cleaned, and pre-processed to remove any inconsistencies.
+- **Feature Engineering:** Lag features, rolling averages, and time-based features were created to capture important patterns in the data.
 - **Modeling**
-  - XGBoost: A
-  - Random Forest: a
-  - LSTM (Long Short-Term Memory): A
+  - XGBoost: Chosen for its ability to handle non-linear relationships and provide high accuracy through boosting.
+  - Random Forest: Selected for its robustness, simplicity, and ability to model complex feature interactions.
+  - LSTM (Long Short-Term Memory): Ideal for capturing long-term dependencies in sequential data, making it well-suited for time series forecasting.
 - **Evaluation Metrics:** Mean Absolute Error (MAE) and R² Score.
 
 <br>
 
 ## ⚙️ Installation
 
-Step-by-step instructions to get the project running locally.
-
 ```Installation
-# a
+# Install the required packages before running.
+pip install torch pandas scikit-learn matplotlib xgboost
 ```
 
 <br>
 
 ## 🚀 Usage
 
-```Run the main.py
-python main.py
+```
+# Download the ZIP file of the directory, unzip, and then from the terminal (e.g. Command Prompt) change directory to the folder.
+cd [directory]\ATS_GoldFuture_Predict
+
+# Choose the model to run, e.g.
+python xgboost-ats.py
 ```
 
 <br>
