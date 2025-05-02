@@ -50,9 +50,11 @@ python main.py
 ## 🗂️ Project Structure
 
 ```Structure
-├── data/
-├── src/
-│   ├── data
+ATS_GoldFuture_Predict-main/
+├── dataset/
+│   └── future-gc00-daily-prices.csv
+├── xgboost-ats.py          # XGBoost Model
+├── randomforest-ats.py     # Random Forest Model
 └── README.md
 ```
 
